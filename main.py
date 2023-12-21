@@ -61,11 +61,14 @@ try:
                 found_words.append(word)
 
     if found_words:
+        sorted_words = ', '.join(sorted(found_words, key=lambda x: len(x), reverse=True))
         print(
             f"Words found from combinations of letters"
             f"including '{mandatory_letter}' and {optional_letters_dict.values()})"
             f"with length at least {min_word_count}:")
-        print(", ".join(found_words))
+        print(sorted_words)
+    else:
+        print("No words found.")
     else:
         print("No words found.")
 
