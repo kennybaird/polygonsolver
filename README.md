@@ -1,4 +1,5 @@
-The Times daily polygon puzzle presents a list of optional + one mandatory letter, from which you have to find wordtypes.  
+The Times daily polygon puzzle presents a list of optional letters, one mandatory letter, and a min word count, from which you have to find wordtypes at least the length of the minimum count.
+
 It seems a bit fuzzy on wordtypes, they should not be plurals nor PROPs but sometimes are.
 Anyway I am awful at the game, I just brute force combinations on their site so I thought I would write this to do it for me
 
